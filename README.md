@@ -61,3 +61,28 @@ material = {
     "nu": 0.33,
     "density": 2700
 }
+架构
+mechanise_analysis
+
+│
+├── material
+│   ├── material.py
+│   └── database.py
+│
+├── mechanics
+│   ├── stress.py
+│   ├── strain.py
+│   ├── beam.py
+│
+├── analysis
+│   ├── curve_analysis.py
+│   ├── strength.py
+│
+├── visualization
+│   ├── plot.py
+│
+├── examples
+│
+└── tests
+
+
